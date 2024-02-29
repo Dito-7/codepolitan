@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <table border="1">
+
+        <thead>
+            <tr>
+                <th>negara</th>
+                <th>uang</th>
+                <th>kota</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>indo</td>
+                <td>10k</td>
+                <td>sidoarjo</td>
+            </tr>
+
+            <tr>
+                <td>indo</td>
+                <td>10k</td>
+                <td>sidoarjo</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <hr>
+    <br>
+
+    <table border="2">
+        <thead>
+            <tr>
+                <th rowspan="4">tahun</th>
+                <th colspan="3">kota</th>
+            </tr>
+            <tr>
+                <td>2024</td>
+                <td>indonesia</td>
+                <td>lumpur</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>2024</td>
+                <td>indonesia</td>
+                <td>lumpur</td>
+                <td>lumpur</td>
+            </tr>
+        </tbody>
+    </table>
+    <br>
+
+    <form action="/bye.html" method="get">
+        <label for="">nama lengkap
+            <input type="text" placeholder="nama" name="name">
+        </label>
+        <br>
+
+        <div>
+            <label for="email"></label>
+            <input type="email" placeholder="Gmail" id="email" name="email">
+        </div>
+
+        <input type="password" placeholder="password" name="password">
+        <input type="number" placeholder="number" name="number">
+        <br>
+        <input type="color" placeholder="colorpicker" name="color">
+
+        <button type="button">button</button>
+        <button type="submit">submit</button>
+        <input type="submit" value="submitInput">
+    </form>
+    <br>
+
+    <form action="" method="get">
+        <div>
+            <label for="baju">baju</label>
+            <input type="radio" name="baju" id="" value="baju" checked>
+        </div>
+        <div>
+            <label for="baju">baju</label>
+            <input type="checkbox" name="celana" id="" value="celana" checked>
+        </div>
+
+        <div>
+            <label for="ukuran">ukuran</label>
+            <select name="UKURANBAJU" id="">
+                <option value="1">L</option>
+                <option value="2">M</option>
+                <option value="3">X</option>
+                <option value="4">XL</option>
+            </select>
+        </div>
+
+        <div>
+            <textarea name="nama" id="" cols="30" rows="10"></textarea>
+        </div>
+        <button type="submit">submit</button>
+    </form>
+</body>
+
+</html>
