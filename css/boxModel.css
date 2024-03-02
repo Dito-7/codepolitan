@@ -1,0 +1,24 @@
+.box {
+    width: 100vh;
+    height: 10vh;
+    margin: 20px;
+    border-style: dotted;
+    border-width: 5px;
+    padding: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+    margin: 100px;
+}
+
+.display h1 {
+    background-color: aqua;
+    border: 1px solid black;
+    display: inline-block;
+}
+
+.display span {
+    background-color: beige;
+    border: 1px solid black;
+    margin: 20px;
+    /* display: inline-block; */
+}
